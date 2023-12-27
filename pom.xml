@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>edu.nuaa</groupId>
+  <artifactId>JavaAgent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>JavaAgent</name>
+  <modules>
+    <module>JavaAgent-01</module>
+    <module>JavaAgent-02</module>
+    <module>JavaAgent-03</module>
+      <module>JavaAgent-04</module>
+      <module>JavaAgent-05</module>
+      <module>JavaAgent-06</module>
+      <module>Javaassist-01</module>
+      <module>Javaassist-02</module>
+    <module>Javaassist-03</module>
+      <module>Javaassist-04</module>
+      <module>Javaassist-05</module>
+  </modules>
+<!--  <properties>-->
+<!--    &lt;!&ndash; Build args &ndash;&gt;-->
+<!--    <argline>-Xms512m -Xmx512m</argline>-->
+<!--    <skip_maven_deploy>false</skip_maven_deploy>-->
+<!--    <updateReleaseInfo>true</updateReleaseInfo>-->
+<!--    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>-->
+<!--    <maven.test.skip>true</maven.test.skip>-->
+<!--    &lt;!&ndash; 自定义MANIFEST.MF &ndash;&gt;-->
+<!--&lt;!&ndash;    <maven.configuration.manifestFile>src/main/resources/META-INF/MANIFEST.MF</maven.configuration.manifestFile>&ndash;&gt;-->
+<!--  </properties>-->
+
+<!--  <dependencies>-->
+<!--    <dependency>-->
+<!--      <groupId>junit</groupId>-->
+<!--      <artifactId>junit</artifactId>-->
+<!--      <version>3.8.1</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--  </dependencies>-->
+
+<!--  <build>-->
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-jar-plugin</artifactId>-->
+<!--        <version>3.1.0</version>-->
+<!--        <configuration>-->
+<!--          <archive>-->
+<!--            <manifest>-->
+<!--              <addClasspath>true</addClasspath>-->
+<!--            </manifest>-->
+<!--            <manifestEntries>-->
+<!--              <Premain-Class>edu.nuaa.agent.MyAgent</Premain-Class>-->
+<!--              <Can-Redefine-Classes>true</Can-Redefine-Classes>-->
+<!--              <Can-Retransform-Classes>true</Can-Retransform-Classes>-->
+<!--              <Can-Set-Native-Method-Prefix>true</Can-Set-Native-Method-Prefix>-->
+<!--            </manifestEntries>-->
+<!--          </archive>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
+<!--    </plugins>-->
+<!--  </build>-->
+
+
+</project>
